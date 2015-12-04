@@ -50,7 +50,7 @@ $subname = ""
 Select-AzureSubscription -SubscriptionName $subname
 
 
-$loc = "West US"
+$loc = "Southeast Asia"
 $rgname = "RG-AZITCAMP-LAB01"
 $deploymentname = "Simple-VM"
 $templatefilepath = "C:\LabFiles\..."
@@ -88,7 +88,7 @@ Pause
 
 #Switch to AzureResource Manager mode.
 
-Switch-AzureMode AzureResourceManager
+Switch-Certificate AzureResourceManager
 
 # If you are running this script on your own computer and not on the supplied host,
 # you consider specifying a location that it is closer to your own physical location.
